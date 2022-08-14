@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Frequent Tabs Opener",
+  "version": "1.0",
+  "description": "Add your collection of tabs that you often open every time you chrome",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "128": "icon96.png"
+  },
+  "action": {
+    "default_icons": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "128": "icon96.png"
+    },
+    "default_title": "Frequent Tabs",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "storage"]
+}
